@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Clicker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <link rel="stylesheet" href="odometer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button id="click" onclick="increase()"><img src="logo.png" alt="icon" width="100px" height="100px"></button>
+    <div id="clickBox">
+        <span id="clickNum" class="odometer"></span> clicks
+    </div>
+    <div id="upgrades">
+        <center>
+            <p id="title">UPGRADES:</p>
+            <div id="upgrade1">Increase Click Amount
+                <p>costs 100 clicks</p>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
