@@ -2,13 +2,19 @@
     font-family: "Rubik", sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
+
 #upgrades{
     width: 500px;
     height: 600px;
     border: black solid;
     position: relative;
-    left: 1000px;
-    bottom: 137px;
+    left: 815px;
+    bottom: 140px;
+    display: inline-block;
 }
 
 .upgrade{
@@ -19,6 +25,14 @@
     right: 3px;
     cursor: auto;
     background: lightblue;
-    padding: 10px;
     display: inline-block;
+}
+
+#click{
+    height: 600px;
+    width: 200px;
+}
+
+.info{
+    color: rgb(247, 249, 250);
 }

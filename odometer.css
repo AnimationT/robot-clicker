@@ -56,11 +56,11 @@
 }
 .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
 .odometer.odometer-theme-digital.odometer-animating-up .odometer-ribbon-inner {
-  -webkit-transition: -webkit-transform 0.25s;
-  -moz-transition: -moz-transform 0.25s;
-  -ms-transition: -ms-transform 0.25s;
-  -o-transition: -o-transform 0.25s;
-  transition: transform 0.25s;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: transform 0.3s;
 }
 .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
 .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating

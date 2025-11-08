@@ -14,18 +14,29 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <button id="click" onclick="increase()"><img src="logo.png" alt="icon" width="100px" height="100px"></button>
-    <div id="clickBox">
-        <span id="clickNum" class="odometer"></span> clicks
-    </div>
+        <button id="click" onclick="increase()"><img src="logo.png" alt="icon" width="100px" height="100px">
+        <div id="clickBox">
+        <span id="clickNum" class="odometer"></span> compute
+        <br>
+        </button>
     <div id="upgrades">
         <center>
             <p id="title">UPGRADES:</p>
-            <button id="upgrade1" class="upgrade" onclick="inClickAm()">Increase Click Amount
-                <p>costs <span id="cost1">100</span> clicks</p>
+            <button id="upgrade1" class="upgrade" onclick="inClickAm()" onmouseover="show1()" onmouseleave="hide1()">Increase AI Investment
+                <br>
+                <div id="info1" class="info" hidden>
+                    <span>increase the compute invested into AI</span>
+                    <br>
+                    <span class="cost">costs <span id="cost1">100</span> clicks</span>
+                </div>
             </button>
-            <button id="upgrade2" class="upgrade" onclick="autoClick1()">Auto Clicker 1
-                <p>costs <span id="cost2">100,000</span> clicks</p>
+            <button id="upgrade2" class="upgrade" onclick="roboClick1()" onmouseover="show2()" onmouseleave="hide2()">GPU Multiplier
+                <br>
+                <div id="info2" class="info" hidden>
+                    <span>more GPU's poured into AI reearch and development</span>
+                    <br>
+                    <span class="cost">costs <span id="cost2">100</span> clicks</span>
+                </div>
             </button>
         </center>
     </div>
